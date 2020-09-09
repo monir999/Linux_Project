@@ -1,7 +1,8 @@
+<?php
 $host="localhost";
 $username="root";
 $password="";
-$db_name="bdtdb";
+$db_name="bdt";
 $tbl_name="login";
 $conn = mysql_connect("$host", "$username", "$password")or die("can not connect");
 mysql_select_db("db_name")or die("can not select db");
@@ -28,5 +29,5 @@ else
 echo " LOGIN FAIL :( ";
 }
 
-
+?>
 
